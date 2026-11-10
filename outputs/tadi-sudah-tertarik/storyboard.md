@@ -52,7 +52,6 @@ Email-nya menjanjikan produk dan proyek. Halaman ini tidak menampilkan keduanya.
 
 | Waktu | Teks |
 |-------|------|
-| 00:24.5–00:28 | Tadi sudah tertarik. |
 | 00:26–00:28 | Website Anda malah bikin kesempatan melayang? Segera konsultasikan dengan ahlinya. (muncul di bawah baris pertama) |
 | 00:28–00:30 | Imajiner |
 
