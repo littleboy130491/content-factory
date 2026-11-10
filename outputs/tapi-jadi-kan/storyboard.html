@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Storyboard: Tapi Jadi, Kan?</title>
+<style>
+  :root {
+    --bg: #f6f4ef; --card: #ffffff; --ink: #1d1d1b; --muted: #6b6a66;
+    --line: #dedbd3; --accent: #1f5f43;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 1180px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font: 600 2.2rem/1.15 Georgia, "Times New Roman", serif; margin: 0 0 8px; }
+  .meta { color: var(--muted); margin: 0 0 4px; }
+  .core { margin: 20px 0 32px; padding: 14px 18px; background: var(--card);
+    border-left: 3px solid var(--accent); border-radius: 4px; max-width: 760px; }
+  .core b { display: block; font-size: .78rem; letter-spacing: .06em;
+    text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
+  .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+  .shot { background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+    overflow: hidden; margin: 0; break-inside: avoid; }
+  .shot img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+  .body { padding: 14px 18px 18px; }
+  .head { display: flex; justify-content: space-between; align-items: baseline;
+    gap: 12px; margin-bottom: 8px; }
+  .num { font-weight: 700; }
+  .time { color: var(--accent); font-variant-numeric: tabular-nums; font-weight: 600;
+    white-space: nowrap; }
+  .body p { margin: 0 0 8px; }
+  .body p:last-child { margin-bottom: 0; }
+  .label { font-size: .75rem; letter-spacing: .06em; text-transform: uppercase;
+    color: var(--muted); display: block; }
+  h2 { font: 600 1.4rem/1.2 Georgia, "Times New Roman", serif; margin: 44px 0 12px; }
+  .tablewrap { overflow-x: auto; }
+  table { border-collapse: collapse; background: var(--card); border: 1px solid var(--line);
+    border-radius: 8px; min-width: 420px; }
+  th, td { text-align: left; padding: 10px 16px; border-bottom: 1px solid var(--line); }
+  th { font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+  tr:last-child td { border-bottom: 0; }
+  td:first-child { font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--accent); font-weight: 600; }
+  .serif { font-family: Georgia, "Times New Roman", serif; font-size: 1.1rem; }
+  .note { color: var(--muted); max-width: 760px; }
+  @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } h1 { font-size: 1.7rem; } }
+  @media print { body { background: #fff; } main { padding: 0; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Tapi Jadi, Kan?</h1>
+  <p class="meta">Durasi 41 detik · Format 16:9 · 10 shot</p>
+  <p class="meta">Gaya: Realistis, humor yang kalem. Tanpa voice-over. Seluruh percakapan lewat chat di layar. Yang diucapkan hanya dua: "Hah, kok gini?" dan "Hadeuh."</p>
+
+  <div class="core">
+    <b>Pesan utama</b>
+    Tahu harus bagaimana, sekarang gampang, karena ada AI. Mengerjakannya butuh skill, pengetahuan praktis, dan pengalaman.
+  </div>
+
+  <div class="grid">
+    <figure class="shot">
+      <img src="images/shot-01.png" alt="Shot 1: klien mengetik di ponsel di kantor proyek">
+      <div class="body">
+        <div class="head"><span class="num">Shot 1</span><span class="time">00:00–00:03</span></div>
+        <p><span class="label">Visual / aksi</span>Medium shot. Dia duduk di meja kantor proyek, mengetik di ponsel. Teks di layar: <b>POV: mau bikin website perusahaan.</b> Balon chat pertamanya muncul di layar.</p>
+        <p><span class="label">Audio</span>Musik pembuka yang ringan. Bunyi ketikan.</p>
+      </div>
+    </figure>
+    <figure class="shot">
+      <img src="images/shot-02.png" alt="Shot 2: chat konsultasi dengan jawaban panjang tiga poin">
+      <div class="body">
+        <div class="head"><span class="num">Shot 2</span><span class="time">00:03–00:11</span></div>
+        <p><span class="label">Visual / aksi</span>Insert layar ponsel: chat dengan "Mas Dimas Web". Tanda "sedang mengetik…" hanya muncul sekejap, lalu satu jawaban panjang dan rapi masuk sekaligus (lihat percakapan di bawah). Layar bergulir pelan mengikuti tiga poinnya.</p>
+        <p><span class="label">Audio</span>Musik berlanjut. Satu "pop".</p>
+      </div>
+    </figure>
+    <figure class="shot">
+      <img src="images/shot-03.png" alt="Shot 3: close-up klien yang terkesan">
+      <div class="body">
+        <div class="head"><span class="num">Shot 3</span><span class="time">00:11–00:13</span></div>
+        <p><span class="label">Visual / aksi</span>Close-up wajahnya. Alis naik, mengangguk pelan. Dia terkesan.</p>
+        <p><span class="label">Audio</span>Musik berlanjut.</p>
+      </div>
+    </figure>
+    <figure class="shot">
+      <img src="images/shot-04.png" alt="Shot 4: chat kesepakatan, besok beres">
+      <div class="body">
+        <div class="head"><span class="num">Shot 4</span><span class="time">00:13–00:18</span></div>
+        <p><span class="label">Visual / aksi</span>Insert chat, tiga balon pendek bergantian: dia bertanya apakah bisa dikerjakan, Mas Dimas menyanggupi besok beres, dia bilang akan kirim foto proyek.</p>
+        <p><span class="label">Audio</span>Bunyi "pop" tiap balon. Musik mengecil dan hilang.</p>
+      </div>
+    </figure>
+    <figure class="shot">
+      <img src="images/shot-05.png" alt="Shot 5: chat keesokan harinya, website sudah jadi">
+      <div class="body">
+        <div class="head"><span class="num">Shot 5</span><span class="time">00:18–00:20</span></div>
+        <p><span class="label">Visual / aksi</span>Teks di layar: <b>Besoknya.</b> Insert chat: "website udh jadi ya pak 👍" beserta link.</p>
+        <p><span class="label">Audio</span>Notifikasi chat.</p>
+      </div>
+    </figure>
+    <figure class="shot">
+      <img src="images/shot-06.png" alt="Shot 6: klien membuka link di laptop dengan wajah penuh harap">
+      <div class="body">
+        <div class="head"><span class="num">Shot 6</span><span class="time">00:20–00:22</span></div>
+        <p><span class="label">Visual / aksi</span>Medium shot dari samping. Dia menaruh ponsel, membuka link-nya di laptop, dan mencondongkan badan ke layar. Wajahnya penuh harap.</p>
+        <p><span class="label">Audio</span>Satu klik.</p>
+      </div>
+    </figure>
+    <figure class="shot">
+      <img src="images/shot-07.png" alt="Shot 7: website dengan foto proyek gepeng dan legalitas kecil di footer">
+      <div class="body">
+        <div class="head"><span class="num">Shot 7</span><span class="time">00:22–00:27</span></div>
+        <p><span class="label">Visual / aksi</span>Insert layar laptop: website perusahaannya. Dia scroll pelan. Gradasi ungu-biru dan emoji, foto proyek yang gepeng dan buram, legalitas yang nyempil di footer (lihat isi website di bawah).</p>
+        <p><span class="label">Audio</span>Bunyi scroll.</p>
+      </div>
+    </figure>
+    <figure class="shot">
+      <img src="images/shot-08.png" alt="Shot 8: close-up klien yang kaget dan kecewa">
+      <div class="body">
+        <div class="head"><span class="num">Shot 8</span><span class="time">00:27–00:30</span></div>
+        <p><span class="label">Visual / aksi</span>Close-up wajahnya, diterangi layar laptop. Harapannya hilang: alisnya berkerut, badannya mundur sedikit, kaget lalu kecewa. <b>"Hah, kok gini?"</b> Diucapkan pelan, ke dirinya sendiri. Dia meraih ponselnya.</p>
+        <p><span class="label">Audio</span>Dialog. Hening.</p>
+      </div>
+    </figure>
+    <figure class="shot">
+      <img src="images/shot-09.png" alt="Shot 9: chat keluhan dan balasan tapi jadi kan pak">
+      <div class="body">
+        <div class="head"><span class="num">Shot 9</span><span class="time">00:30–00:35</span></div>
+        <p><span class="label">Visual / aksi</span>Insert chat. Dia mengetik keluhannya. Tanda "sedang mengetik…" muncul agak lama, lalu: "hmm, tapi jadi kan pak? 🙏"</p>
+        <p><span class="label">Audio</span>Bunyi ketikan. Hening, lalu satu "pop".</p>
+      </div>
+    </figure>
+    <figure class="shot">
+      <img src="images/shot-10.png" alt="Shot 10: klien menghela napas, dengan teks penutup">
+      <div class="body">
+        <div class="head"><span class="num">Shot 10</span><span class="time">00:35–00:41</span></div>
+        <p><span class="label">Visual / aksi</span>Medium shot seperti shot 1. Dia meletakkan ponsel telungkup di meja dan mengembuskan napas. <b>"Hadeuh."</b> Dia menutup laptop dan meraih helm proyeknya. Adegan terus berjalan di balik teks penutup.</p>
+        <p><span class="label">Audio</span>Dialog. Suasana kantor proyek. Tanpa musik.</p>
+      </div>
+    </figure>
+  </div>
+
+  <h2>Teks penutup (di atas shot 10)</h2>
+  <div class="tablewrap">
+    <table>
+      <tr><th>Waktu</th><th>Teks</th></tr>
+      <tr><td>00:36.5–00:39.5</td><td class="serif">Semua bisa bilang bisa.</td></tr><tr><td>00:37.5–00:39.5</td><td class="serif">Tidak semua beneran bisa.</td></tr><tr><td>00:39.5–00:41</td><td class="serif">Imajiner</td></tr>
+    </table>
+  </div>
+  <p class="note">Tipografi serif putih yang kalem, di atas adegan yang tetap berjalan. Tanpa freeze-frame, tanpa layar hitam, tanpa transisi dramatis.</p>
+
+  <p class="note">Gambar adegan dibuat dengan Nano Banana dan GPT Image sebagai acuan visual, bukan frame final. Layar chat dan website adalah mockup. PT Wira Bangun Persada adalah perusahaan fiktif.</p>
+</main>
+</body>
+</html>

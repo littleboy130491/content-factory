@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PT Wira Bangun Persada</title>
+<style>
+  :root {
+    --ink: #111827;
+    --ink-soft: #374151;
+    --muted: #6b7280;
+    --line: #e5e7eb;
+    --soft: #f4f4f5;
+    --dark: #1f2937;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Noto Sans", "Segoe UI", system-ui, sans-serif;
+    color: var(--ink);
+    background: #fff;
+    background-color: #fff;
+    line-height: 1.5;
+  }
+  a { text-decoration: none; }
+
+  /* Navbar */
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 18px 32px;
+    background: #fff;
+    border-bottom: 1px solid var(--line);
+  }
+  .nav .brand {
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--ink);
+  }
+  .nav .menu a {
+    margin-left: 22px;
+    color: var(--ink-soft);
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  /* Hero: dua kolom, gambar di kanan */
+  .hero {
+    background: linear-gradient(135deg, var(--dark), #4b5563);
+    color: #fff;
+    padding: 80px 32px;
+  }
+  .hero-inner {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+    align-items: center;
+  }
+  .hero .tagline {
+    display: inline-block;
+    margin: 0 0 18px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.14);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  .hero h1 {
+    margin: 0;
+    font-size: 46px;
+    line-height: 1.18;
+    font-weight: 800;
+  }
+  .hero p.deskripsi {
+    margin: 18px 0 0;
+    font-size: 16px;
+    color: #d1d5db;
+    max-width: 460px;
+  }
+  .hero .btn {
+    display: inline-block;
+    margin-top: 30px;
+    background: #fff;
+    color: var(--ink);
+    font-weight: 700;
+    font-size: 16px;
+    padding: 14px 34px;
+    border-radius: 999px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+  }
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 18px;
+    box-shadow: 0 24px 50px rgba(0, 0, 0, 0.35);
+  }
+
+  /* Judul bagian */
+  .judul {
+    margin: 0 0 36px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--ink);
+  }
+
+  /* Layanan */
+  .layanan {
+    padding: 72px 16px 56px;
+  }
+  .kartu-layanan {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+  .kartu-layanan .kartu {
+    flex: 1 1 280px;
+    max-width: 320px;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 32px 26px;
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.06);
+    text-align: center;
+  }
+  .kartu-layanan .ikon {
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 18px;
+    border-radius: 50%;
+    background: var(--soft);
+    font-size: 34px;
+    line-height: 72px;
+  }
+  .kartu-layanan h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .kartu-layanan p {
+    margin: 0;
+    font-size: 15px;
+    color: var(--muted);
+  }
+
+  /* Proyek */
+  .proyek {
+    padding: 56px 16px 72px;
+    background: var(--soft);
+  }
+  .grid-proyek {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 28px;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .kartu-proyek {
+    flex: 1 1 320px;
+    max-width: 360px;
+    background: #fff;
+    border-radius: 18px;
+    padding: 14px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  }
+  .kartu-proyek img {
+    display: block;
+    width: 100%;
+    height: 180px;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  .kartu-proyek h3 {
+    margin: 14px 6px 6px;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .kartu-proyek p {
+    margin: 0 6px 6px;
+    font-size: 14px;
+    color: var(--muted);
+  }
+
+  /* Footer */
+  footer {
+    background: var(--ink);
+    color: #d1d5db;
+    text-align: center;
+    padding: 36px 16px 32px;
+    font-size: 14px;
+  }
+  footer .nama {
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+  }
+  footer .legal {
+    margin-top: 12px;
+    font-size: 11px;
+    color: #9ca3af;
+  }
+
+  /* Layar kecil: satu kolom */
+  @media (max-width: 800px) {
+    .nav { padding: 14px 16px; }
+    .nav .menu a { margin: 0 12px 0 0; }
+    .hero { padding: 56px 16px; }
+    .hero-inner { grid-template-columns: 1fr; gap: 36px; }
+    .hero h1 { font-size: 30px; }
+    .judul { font-size: 26px; }
+    .kartu-proyek { max-width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="brand">PT Wira Bangun Persada</div>
+  <div class="menu">
+    <a href="#">Beranda</a>
+    <a href="#layanan">Layanan</a>
+    <a href="#proyek">Proyek</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div>
+      <span class="tagline">Kontraktor Terpercaya ✨</span>
+      <h1>Membangun Masa Depan, Mewujudkan Impian Anda ✨</h1>
+      <p class="deskripsi">Kami siap mewujudkan proyek konstruksi Anda dengan kualitas terbaik dan hasil yang bisa diandalkan.</p>
+      <a class="btn" href="#">Mulai Sekarang 🚀</a>
+    </div>
+    <img src="img/hero-konstruksi.jpg" alt="Proyek konstruksi gedung">
+  </div>
+</header>
+
+<section class="layanan" id="layanan">
+  <h2 class="judul">Layanan Kami</h2>
+  <div class="kartu-layanan">
+    <div class="kartu">
+      <div class="ikon">🏗️</div>
+      <h3>Konstruksi</h3>
+      <p>Pembangunan gedung dengan standar kualitas terbaik untuk kebutuhan Anda.</p>
+    </div>
+    <div class="kartu">
+      <div class="ikon">💼</div>
+      <h3>Konsultasi Bisnis</h3>
+      <p>Solusi praktis untuk mengembangkan usaha Anda ke tingkat berikutnya.</p>
+    </div>
+    <div class="kartu">
+      <div class="ikon">🚀</div>
+      <h3>Transformasi Digital</h3>
+      <p>Langkah modern untuk membawa perusahaan Anda lebih dekat dengan masa depan.</p>
+    </div>
+  </div>
+</section>
+
+<section class="proyek" id="proyek">
+  <h2 class="judul">Proyek Kami 🏗️</h2>
+  <div class="grid-proyek">
+    <div class="kartu-proyek">
+      <img src="img/proyek-1.jpg" alt="Proyek 1">
+      <h3>Proyek 1</h3>
+      <p>Pekerjaan konstruksi bangunan.</p>
+    </div>
+    <div class="kartu-proyek">
+      <img src="img/proyek-2.jpg" alt="Proyek 2">
+      <h3>Proyek 2</h3>
+      <p>Pekerjaan konstruksi bangunan.</p>
+    </div>
+    <div class="kartu-proyek">
+      <img src="img/proyek-3.jpg" alt="Proyek 3">
+      <h3>Proyek 3</h3>
+      <p>Pekerjaan konstruksi bangunan.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="nama">PT Wira Bangun Persada</div>
+  <div>© 2026 PT Wira Bangun Persada. All rights reserved.</div>
+  <div class="legal">✅ Legalitas lengkap ✅ Bersertifikat</div>
+</footer>
+
+</body>
+</html>
