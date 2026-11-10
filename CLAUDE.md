@@ -71,6 +71,7 @@ Recurring themes: having a website is not enough; work that is obviously AI-made
 - Keep `storyboard.md`, `storyboard.html`, and the images in sync, and say which of them changed.
 - When the author asks "apa baiknya…?", give one recommendation with the trade-off, then wait for the go-ahead before regenerating images.
 - Report honestly where an image does not match the script (wrong prop, wrong expression), per shot.
+- Stay inside the folder of the project being worked on. Do not open, list, or search other `outputs/` folders or unrelated directories: it fills the context with material that is not needed. The conventions from earlier projects are already written in this file. Look at another project's folder only when the author asks, or when a specific file is needed for the task (for example the first video's `storyboard.html` for its CSS), and then read only that file.
 
 ### Image generation practice
 
