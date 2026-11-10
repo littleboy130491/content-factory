@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home | PT FurniSolusi Mitra Sejahtera - Your Trusted Solution Partner</title>
+<!-- Mockup untuk video "Tadi Sudah Tertarik". FurniSolusi adalah perusahaan fiktif. -->
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #e9edf2; color: #333; font: 13px/1.6 Arial, Helvetica, sans-serif; }
+  a { color: #1b4f8f; text-decoration: none; }
+  .wrap { width: 1100px; max-width: 100%; margin: 0 auto; padding: 0 16px; }
+
+  .topbar { background: #12335e; color: #c9d6e8; font-size: 11px; padding: 6px 0; }
+  .topbar .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+
+  header { background: #fff; padding: 16px 0; }
+  header .wrap { display: flex; align-items: center; gap: 14px; }
+  .logo { width: 54px; height: 54px; border-radius: 50%; flex: none;
+    background: linear-gradient(135deg, #2a6fc4, #12335e); color: #fff;
+    font: bold 22px Georgia, serif; display: flex; align-items: center; justify-content: center;
+    border: 3px solid #d9a441; }
+  .brand b { display: block; font: bold 20px "Times New Roman", serif; color: #12335e; letter-spacing: .5px; }
+  .brand span { font-size: 11px; color: #888; font-style: italic; }
+
+  nav { background: linear-gradient(#2a6fc4, #1b4f8f); border-bottom: 3px solid #d9a441; }
+  nav .wrap { display: flex; flex-wrap: wrap; }
+  nav a { color: #fff; padding: 12px 20px; font-size: 12px; font-weight: bold;
+    text-transform: uppercase; border-right: 1px solid rgba(255,255,255,.18); }
+  nav a.on { background: #12335e; }
+
+  .hero { height: 400px; position: relative; color: #fff; text-align: center;
+    background: #223 url(img/hero.jpg) center / cover no-repeat;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0 16px; }
+  .hero::before { content: ""; position: absolute; inset: 0; background: rgba(13, 34, 66, .62); }
+  .hero > * { position: relative; }
+  .hero h1 { margin: 0 0 10px; font: bold 44px Arial, sans-serif; letter-spacing: 1px;
+    text-shadow: 2px 2px 4px #000; }
+  .hero p { margin: 0 0 22px; font-size: 16px; font-style: italic; text-shadow: 1px 1px 2px #000; }
+  .btn { display: inline-block; background: #d9a441; color: #fff; font-weight: bold;
+    padding: 10px 26px; font-size: 12px; border-radius: 3px; text-transform: uppercase; }
+  .dots { position: absolute; bottom: 14px; left: 0; right: 0; }
+  .dots i { display: inline-block; width: 10px; height: 10px; border-radius: 50%;
+    background: rgba(255,255,255,.45); margin: 0 3px; }
+  .dots i:first-child { background: #fff; }
+
+  section { background: #fff; padding: 34px 0; border-bottom: 1px solid #dde3ea; }
+  section.alt { background: #f4f6f9; }
+  h2 { font: bold 24px "Times New Roman", serif; color: #12335e; margin: 0 0 6px; }
+  .rule { width: 60px; height: 3px; background: #d9a441; margin: 0 0 18px; }
+  .center { text-align: center; }
+  .center .rule { margin-left: auto; margin-right: auto; }
+  p.just { text-align: justify; margin: 0 0 12px; color: #555; }
+
+  .cols { display: flex; gap: 30px; flex-wrap: wrap; }
+  .cols > div { flex: 1 1 300px; }
+  ol { margin: 0; padding-left: 18px; color: #555; }
+  ol li { margin-bottom: 6px; text-align: justify; }
+  blockquote { margin: 0; padding: 14px 18px; background: #fff; border-left: 4px solid #d9a441;
+    font: italic 15px "Times New Roman", serif; color: #444; }
+
+  .why { display: flex; gap: 20px; flex-wrap: wrap; }
+  .why div { flex: 1 1 200px; text-align: center; padding: 18px 12px; border: 1px solid #dde3ea; background: #fff; }
+  .why .ic { width: 56px; height: 56px; line-height: 56px; border-radius: 50%; margin: 0 auto 10px;
+    background: #1b4f8f; color: #fff; font-size: 24px; }
+  .why b { display: block; color: #12335e; text-transform: uppercase; font-size: 13px; margin-bottom: 4px; }
+  .why span { color: #777; font-size: 12px; }
+
+  .galeri { display: flex; gap: 14px; flex-wrap: wrap; }
+  .galeri img { width: 170px; height: 120px; object-fit: cover; border: 4px solid #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,.4); filter: blur(.6px); }
+
+  .news { display: flex; gap: 30px; flex-wrap: wrap; }
+  .news > div { flex: 1 1 300px; }
+  .news small { color: #999; }
+  .news b { display: block; color: #1b4f8f; font-size: 14px; }
+  .news p { margin: 4px 0 0; color: #666; }
+
+  footer { background: #12335e; color: #c9d6e8; padding: 26px 0 0; font-size: 12px; }
+  footer .cols > div { flex: 1 1 220px; }
+  footer h3 { color: #fff; font-size: 13px; text-transform: uppercase; margin: 0 0 8px;
+    border-bottom: 1px solid #2a4f80; padding-bottom: 6px; }
+  footer p { margin: 0 0 4px; }
+  .counter { display: inline-block; background: #000; color: #6f6; font: bold 14px "Courier New", monospace;
+    padding: 2px 8px; letter-spacing: 3px; }
+  .copy { margin-top: 22px; background: #0c2443; text-align: center; padding: 10px 16px; font-size: 11px; }
+
+  @media (max-width: 700px) { .hero h1 { font-size: 28px; } nav a { padding: 10px 12px; } }
+</style>
+</head>
+<body>
+
+<div class="topbar"><div class="wrap">
+  <span>Selamat Datang di Website Resmi PT FurniSolusi Mitra Sejahtera</span>
+  <span>Telp: (021) 555-0142 &nbsp;|&nbsp; Email: info@furnisolusi.example</span>
+</div></div>
+
+<header><div class="wrap">
+  <div class="logo">FS</div>
+  <div class="brand"><b>PT FURNISOLUSI MITRA SEJAHTERA</b><span>Your Trusted Solution Partner</span></div>
+</div></header>
+
+<nav><div class="wrap">
+  <a class="on" href="#">Beranda</a>
+  <a href="#tentang">Tentang Kami</a>
+  <a href="#visi">Visi &amp; Misi</a>
+  <a href="#galeri">Galeri</a>
+  <a href="#berita">Berita</a>
+  <a href="#kontak">Kontak</a>
+</div></nav>
+
+<div class="hero">
+  <h1>YOUR TRUSTED SOLUTION PARTNER</h1>
+  <p>Providing Integrated Solutions with Excellence, Integrity and Commitment</p>
+  <a class="btn" href="#tentang">Read More</a>
+  <div class="dots"><i></i><i></i><i></i></div>
+</div>
+
+<section id="tentang"><div class="wrap">
+  <h2>Tentang Kami</h2><div class="rule"></div>
+  <p class="just">PT FurniSolusi Mitra Sejahtera adalah perusahaan nasional yang berdiri sejak tahun 2009 dan bergerak di bidang penyediaan solusi terintegrasi bagi berbagai kebutuhan dunia usaha. Sejak awal berdirinya, perusahaan senantiasa berkomitmen untuk memberikan pelayanan yang terbaik kepada seluruh pelanggan dan mitra kerja dengan mengedepankan nilai-nilai profesionalisme, integritas, serta kepuasan pelanggan sebagai prioritas utama. Dengan didukung oleh sumber daya manusia yang handal, berpengalaman, dan berdedikasi tinggi di bidangnya masing-masing, serta sistem manajemen yang terus dikembangkan secara berkesinambungan, kami telah dipercaya oleh berbagai instansi pemerintah maupun perusahaan swasta di seluruh wilayah Indonesia untuk menjadi mitra dalam mewujudkan tujuan bersama.</p>
+  <p class="just">Seiring dengan perkembangan zaman dan semakin ketatnya persaingan di era globalisasi, PT FurniSolusi Mitra Sejahtera terus melakukan inovasi dan peningkatan kualitas di segala aspek guna menjawab tantangan serta kebutuhan pasar yang semakin dinamis. Kami percaya bahwa keberhasilan perusahaan tidak terlepas dari kepercayaan yang diberikan oleh para pelanggan, sehingga kami selalu berupaya untuk menjaga dan meningkatkan kepercayaan tersebut melalui kerja keras, sinergi yang solid, dan komitmen yang tinggi terhadap mutu. Dengan semangat kebersamaan dan tekad yang kuat, kami siap menjadi mitra solusi terpercaya bagi Anda, hari ini dan di masa yang akan datang.</p>
+  <a class="btn" href="#">Selengkapnya</a>
+</div></section>
+
+<section class="alt" id="visi"><div class="wrap">
+  <h2>Visi &amp; Misi</h2><div class="rule"></div>
+  <div class="cols">
+    <div>
+      <h3>VISI</h3>
+      <blockquote>"Menjadi perusahaan penyedia solusi yang terdepan, terpercaya, dan berdaya saing global di Indonesia."</blockquote>
+    </div>
+    <div>
+      <h3>MISI</h3>
+      <ol>
+        <li>Memberikan pelayanan yang prima dan berorientasi pada kepuasan pelanggan.</li>
+        <li>Mengembangkan sumber daya manusia yang profesional, kompeten, dan berintegritas.</li>
+        <li>Menjalin hubungan kemitraan yang saling menguntungkan dan berkesinambungan.</li>
+        <li>Meningkatkan nilai tambah bagi seluruh pemangku kepentingan.</li>
+        <li>Menerapkan tata kelola perusahaan yang baik (Good Corporate Governance).</li>
+      </ol>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="wrap center">
+  <h2>Why Choose Us</h2><div class="rule"></div>
+  <div class="why">
+    <div><div class="ic">&#9733;</div><b>Profesional</b><span>Didukung tim yang profesional di bidangnya.</span></div>
+    <div><div class="ic">&#10004;</div><b>Terpercaya</b><span>Dipercaya oleh berbagai instansi dan perusahaan.</span></div>
+    <div><div class="ic">&#9819;</div><b>Berkualitas</b><span>Mengutamakan kualitas di setiap aspek.</span></div>
+    <div><div class="ic">&#9775;</div><b>Berpengalaman</b><span>Pengalaman lebih dari 10 tahun.</span></div>
+  </div>
+</div></section>
+
+<section class="alt" id="galeri"><div class="wrap">
+  <h2>Galeri</h2><div class="rule"></div>
+  <div class="galeri">
+    <img src="img/g1.jpg" alt="">
+    <img src="img/g2.jpg" alt="">
+    <img src="img/g3.jpg" alt="">
+    <img src="img/g4.jpg" alt="">
+  </div>
+</div></section>
+
+<section id="berita"><div class="wrap">
+  <h2>Berita Terbaru</h2><div class="rule"></div>
+  <div class="news">
+    <div><small>17 Agustus 2019</small><b>Dirgahayu Republik Indonesia ke-74</b><p>Segenap direksi dan karyawan mengucapkan Dirgahayu Republik Indonesia...</p></div>
+    <div><small>12 Februari 2019</small><b>Rapat Kerja Tahunan 2019</b><p>PT FurniSolusi Mitra Sejahtera telah menyelenggarakan Rapat Kerja Tahunan...</p></div>
+    <div><small>3 Januari 2019</small><b>Selamat Tahun Baru 2019</b><p>Semoga di tahun yang baru ini kita semua semakin sukses...</p></div>
+  </div>
+</div></section>
+
+<footer id="kontak">
+  <div class="wrap cols">
+    <div><h3>Kantor Pusat</h3><p>PT FurniSolusi Mitra Sejahtera</p><p>Jl. Raya Industri No. 12, Jakarta</p><p>Telp: (021) 555-0142</p><p>Fax: (021) 555-0143</p></div>
+    <div><h3>Link</h3><p>Beranda</p><p>Tentang Kami</p><p>Visi &amp; Misi</p><p>Galeri</p></div>
+    <div><h3>Pengunjung</h3><p><span class="counter">0018427</span></p><p>Hari ini: 3 &nbsp; Online: 1</p></div>
+  </div>
+  <div class="copy">Copyright &copy; 2016 PT FurniSolusi Mitra Sejahtera. All Rights Reserved.</div>
+</footer>
+
+</body>
+</html>
