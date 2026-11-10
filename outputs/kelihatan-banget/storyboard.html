@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Storyboard: Kelihatan Aja</title>
+<style>
+  :root {
+    --bg: #f6f4ef; --card: #ffffff; --ink: #1d1d1b; --muted: #6b6a66;
+    --line: #dedbd3; --accent: #1f5f43;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 1180px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font: 600 2.2rem/1.15 Georgia, "Times New Roman", serif; margin: 0 0 8px; }
+  .meta { color: var(--muted); margin: 0 0 4px; }
+  .core { margin: 20px 0 32px; padding: 14px 18px; background: var(--card);
+    border-left: 3px solid var(--accent); border-radius: 4px; max-width: 760px; }
+  .core b { display: block; font-size: .78rem; letter-spacing: .06em;
+    text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
+  .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+  .shot { background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+    overflow: hidden; margin: 0; break-inside: avoid; }
+  .shot img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+  .body { padding: 14px 18px 18px; }
+  .head { display: flex; justify-content: space-between; align-items: baseline;
+    gap: 12px; margin-bottom: 8px; }
+  .num { font-weight: 700; }
+  .time { color: var(--accent); font-variant-numeric: tabular-nums; font-weight: 600;
+    white-space: nowrap; }
+  .body p { margin: 0 0 8px; }
+  .body p:last-child { margin-bottom: 0; }
+  .label { font-size: .75rem; letter-spacing: .06em; text-transform: uppercase;
+    color: var(--muted); display: block; }
+  h2 { font: 600 1.4rem/1.2 Georgia, "Times New Roman", serif; margin: 44px 0 12px; }
+  .tablewrap { overflow-x: auto; }
+  table { border-collapse: collapse; background: var(--card); border: 1px solid var(--line);
+    border-radius: 8px; min-width: 420px; }
+  th, td { text-align: left; padding: 10px 16px; border-bottom: 1px solid var(--line); }
+  th { font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+  tr:last-child td { border-bottom: 0; }
+  td:first-child { font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--accent); font-weight: 600; }
+  .serif { font-family: Georgia, "Times New Roman", serif; font-size: 1.1rem; }
+  .note { color: var(--muted); max-width: 760px; }
+  @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } h1 { font-size: 1.7rem; } }
+  @media print { body { background: #fff; } main { padding: 0; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Kelihatan Aja</h1>
+  <p class="meta">Durasi 30 detik · Format 16:9 · 7 shot</p>
+  <p class="meta">Gaya: realistis, humor yang kalem. Tanpa voice-over. Dialognya hanya empat kalimat pendek.</p>
+
+  <div class="core">
+    <b>Pesan utama</b>
+    Punya website saja belum cukup. Kalau terlalu kelihatan buatan AI, bisnisnya ikut tidak dianggap serius.
+  </div>
+
+  <div class="grid">
+    <figure class="shot">
+      <img src="images/shot-01.png" alt="Shot 1: si pitcher menjelaskan dengan bersemangat, calon klien mengangguk, masing-masing dengan laptop sendiri">
+      <div class="body">
+        <div class="head"><span class="num">Shot 1</span><span class="time">00:00–00:05</span></div>
+        <p><span class="label">Visual / aksi</span>Two-shot dari samping meja. Masing-masing dengan laptopnya sendiri, ditaruh agak ke samping supaya wajah tidak tertutup. Pembuka: si pitcher sedang menjelaskan sesuatu dengan bersemangat, tangannya ikut bergerak. Suaranya tidak terdengar, tertutup musik pembuka. Calon klien condong ke depan, buku catatannya terbuka, pulpen di tangan, mengangguk berminat. Teks di layar: <b>POV: lagi pitching ke calon klien.</b> Musik mengecil. Si pitcher menunjuk sekilas ke layar laptopnya sendiri. <b>"Lengkapnya bisa dilihat di website kami, Pak."</b> Calon klien beralih ke laptopnya.</p>
+        <p><span class="label">Audio</span>Musik pembuka yang lembut, menutupi penjelasan si pitcher. Musik mengecil dan hilang tepat sebelum dialog pertama.</p>
+      </div>
+    </figure>
+    <figure class="shot">
+      <img src="images/shot-02.png" alt="Shot 2: calon klien mengetik di laptopnya sendiri, dilihat dari balik bahu si pitcher">
+      <div class="body">
+        <div class="head"><span class="num">Shot 2</span><span class="time">00:05–00:08</span></div>
+        <p><span class="label">Visual / aksi</span>Dari balik bahu si pitcher. Calon klien meletakkan pulpen di atas buku catatan yang masih terbuka, mengetik sebentar di laptopnya sendiri, lalu mulai scroll.</p>
+        <p><span class="label">Audio</span>Bunyi ketikan singkat, lalu scroll yang ringan.</p>
+      </div>
+    </figure>
+    <figure class="shot">
+      <img src="images/shot-03.png" alt="Shot 3: website dengan gradasi ungu-biru, emoji, tiga kartu, dan foto tim yang terlalu mulus">
+      <div class="body">
+        <div class="head"><span class="num">Shot 3</span><span class="time">00:08–00:13</span></div>
+        <p><span class="label">Visual / aksi</span>Insert layar: dia scroll pelan. Hero dengan gradasi ungu-biru, headline dengan emoji, tiga kartu berikon, foto tim yang terlalu mulus.</p>
+        <p><span class="label">Audio</span>Bunyi scroll.</p>
+      </div>
+    </figure>
+    <figure class="shot">
+      <img src="images/shot-04.png" alt="Shot 4: close-up calon klien yang bertanya">
+      <div class="body">
+        <div class="head"><span class="num">Shot 4</span><span class="time">00:13–00:17</span></div>
+        <p><span class="label">Visual / aksi</span>Close-up calon klien. Dia masih menatap layar, mata sedikit menyipit. Lalu mengangkat pandangan ke si pitcher. <b>"Ini buatnya pakai AI, ya?"</b> Nadanya datar, sekadar bertanya.</p>
+        <p><span class="label">Audio</span>Dialog.</p>
+      </div>
+    </figure>
+    <figure class="shot">
+      <img src="images/shot-05.png" alt="Shot 5: close-up si pitcher dengan senyum canggung">
+      <div class="body">
+        <div class="head"><span class="num">Shot 5</span><span class="time">00:17–00:20</span></div>
+        <p><span class="label">Visual / aksi</span>Close-up si pitcher. Senyum percaya dirinya berhenti di tengah jalan dan berubah jadi senyum canggung. Dia berkedip, melirik laptop sebentar, lalu kembali ke calon klien. <b>"Kok tahu?"</b></p>
+        <p><span class="label">Audio</span>Hening sesaat, lalu dialog.</p>
+      </div>
+    </figure>
+    <figure class="shot">
+      <img src="images/shot-06.png" alt="Shot 6: calon klien menjawab dengan tenang, tangan lepas dari trackpad">
+      <div class="body">
+        <div class="head"><span class="num">Shot 6</span><span class="time">00:20–00:24</span></div>
+        <p><span class="label">Visual / aksi</span>Dari balik bahu si pitcher. Calon klien mengangkat tangannya dari laptop dan sedikit mundur. Wajahnya tenang. <b>"Kelihatan aja."</b> Diucapkan pelan, nyaris tanpa senyum, tanpa gerakan lain.</p>
+        <p><span class="label">Audio</span>Dialog. Selebihnya hening.</p>
+      </div>
+    </figure>
+    <figure class="shot">
+      <img src="images/shot-07.png" alt="Shot 7: calon klien menurunkan layar laptop dan melirik jam tangan, si pitcher memegang tengkuk, dengan teks penutup">
+      <div class="body">
+        <div class="head"><span class="num">Shot 7</span><span class="time">00:24–00:30</span></div>
+        <p><span class="label">Visual / aksi</span>Two-shot seperti shot 1. Calon klien bersandar, menurunkan layar laptopnya setengah, lalu melirik jam tangannya. Si pitcher masih tersenyum canggung, satu tangan memegang tengkuk, matanya ke website-nya sendiri yang masih terbuka di laptopnya. Adegan terus berjalan di balik teks penutup.</p>
+        <p><span class="label">Audio</span>Suasana ruang meeting. Tidak ada musik.</p>
+      </div>
+    </figure>
+  </div>
+
+  <h2>Dialog</h2>
+  <div class="tablewrap">
+    <table>
+      <tr><th>Waktu</th><th>Siapa</th><th>Kalimat</th></tr>
+      <tr><td>00:03.5</td><td>Si pitcher</td><td>Lengkapnya bisa dilihat di website kami, Pak.</td></tr>
+      <tr><td>00:14.5</td><td>Calon klien</td><td>Ini buatnya pakai AI, ya?</td></tr>
+      <tr><td>00:18.5</td><td>Si pitcher</td><td>Kok tahu?</td></tr>
+      <tr><td>00:21.5</td><td>Calon klien</td><td>Kelihatan aja.</td></tr>
+    </table>
+  </div>
+
+  <h2>Teks penutup (di atas shot 7)</h2>
+  <div class="tablewrap">
+    <table>
+      <tr><th>Waktu</th><th>Teks</th></tr>
+      <tr><td>00:24.5–00:28</td><td class="serif">Website Anda gagal bikin calon klien terkesan?</td></tr>
+      <tr><td>00:26–00:28</td><td class="serif">Konsultasikan dengan ahlinya.</td></tr>
+      <tr><td>00:28–00:30</td><td class="serif">Imajiner</td></tr>
+    </table>
+  </div>
+  <p class="note">Tipografi serif putih yang kalem, di atas adegan yang tetap berjalan. Tanpa freeze-frame, tanpa layar hitam, tanpa transisi dramatis.</p>
+
+  <p class="note">Gambar dibuat dengan GPT Image sebagai acuan visual, bukan frame final. Bisnis dan website di cerita ini fiktif.</p>
+</main>
+</body>
+</html>

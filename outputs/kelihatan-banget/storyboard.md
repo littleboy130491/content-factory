@@ -1,41 +1,51 @@
-# Kelihatan Banget
+# Kelihatan Aja
 
 **Durasi:** 30 detik · **Format:** 16:9
-**Gaya:** Realistis, humor yang kalem. Tanpa voice-over. Dialognya hanya tiga kalimat pendek.
+**Gaya:** Realistis, humor yang kalem. Tanpa voice-over. Dialognya hanya empat kalimat pendek.
 
-**Pesan utama:** Website-nya jadi dalam sekejap. Orang juga tahu dalam sekejap cara bikinnya.
+**Pesan utama:** Punya website saja belum cukup. Kalau terlalu kelihatan buatan AI, bisnisnya ikut tidak dianggap serius.
 
 ## Sudut pandang
 
-Seluruh video diambil dari mata si pembuat website (POV). Kita tidak pernah melihat wajahnya, hanya tangannya, laptopnya, dan suaranya di satu kalimat.
+Kamera biasa, bukan POV harfiah, supaya wajah si pitcher terlihat. "POV" hanya dipakai sebagai teks pembuka di layar. Ceritanya tetap dari sisi si pitcher: kita ikut merasakan canggungnya.
 
 ## Karakter dan latar
 
-- **Si pembuat website (tidak terlihat):** pemilik atau staf sebuah bisnis kecil. Baru saja selesai bikin website kantor sendiri, dan bangga.
-- **Rekan di meja sebelah:** pria Indonesia awal 30-an, kemeja biru muda dengan lengan digulung. Orang yang sama dengan video "Tadi Sudah Tertarik". Tenang, jujur, tidak bermaksud menyindir.
-- **Latar:** kantor yang sama, cahaya siang, dua meja bersebelahan.
+- **Si pitcher:** pria Indonesia akhir 20-an, berkacamata, kemeja batik lengan panjang yang rapi. Pemilik atau sales sebuah bisnis kecil. Di awal percaya diri dan yakin website-nya akan jadi penutup yang bagus. Setelah ditanya, dia jadi canggung: senyumnya tertahan, matanya tidak tahu harus ke mana.
+- **Calon klien:** pria Indonesia awal 30-an, kemeja biru muda dengan lengan digulung. Orang yang sama dengan video "Tadi Sudah Tertarik". Sopan dan terbuka, tidak bermaksud menyindir.
+- **Latar:** ruang meeting kecil di kantor calon klien, cahaya siang. Mereka duduk berhadapan, masing-masing dengan laptopnya sendiri. Di meja juga ada buku catatan dan pulpen milik calon klien, dan dua gelas air.
 
 ## Storyboard
 
 | # | Waktu | Visual / aksi | Audio |
 |---|-------|---------------|-------|
-| 1 | 00:00–00:05 | POV ke layar laptop, kedua tangan di keyboard. Di layar ada website yang baru jadi. Kursor menuju tombol "Publish", klik. Muncul tulisan kecil "Website Anda sudah online". Jari-jarinya mengetuk meja pelan, puas. Teks di layar: **POV: baru selesai bikin website kantor.** | Suasana kantor. Satu klik. Ketukan jari di meja. |
-| 2 | 00:05–00:08 | Masih POV. Tangannya menggeser laptop ke kanan, ke arah rekan di meja sebelah yang sedang memegang mug. Rekannya menoleh, lalu mendekat ke layar. | Bunyi laptop digeser di meja. |
-| 3 | 00:08–00:13 | Insert layar: rekannya scroll pelan. Hero dengan gradasi ungu-biru, headline dengan emoji, tiga kartu berikon, foto tim yang terlalu mulus (lihat isi website di bawah). | Bunyi scroll yang ringan. |
-| 4 | 00:13–00:17 | POV ke wajah rekannya. Dia masih menatap layar, mata sedikit menyipit. Lalu menoleh ke kamera. **"Ini buatnya pakai AI, ya?"** Nadanya datar, sekadar bertanya. | Dialog. Suasana kantor. |
-| 5 | 00:17–00:20 | POV turun sedikit ke tangannya sendiri, yang berhenti di atas trackpad. Jeda sebentar. Suara dari balik kamera: **"Kok tahu?"** | Dialog. Hening sesaat sebelumnya. |
-| 6 | 00:20–00:24 | POV kembali ke rekannya. Dia melirik layar sekali lagi, lalu kembali ke kamera. **"Kelihatan banget."** Senyum tipis, tidak mengejek. Dia kembali ke mugnya dan mejanya sendiri. | Dialog. Bunyi mug diletakkan. |
-| 7 | 00:24–00:30 | POV ke laptop yang ditarik kembali. Website-nya masih terbuka. Tangannya diam di trackpad, kursor melayang di atas headline, tidak mengklik apa pun. Adegan terus berjalan di balik teks penutup. | Suasana kantor. Tidak ada musik. |
+| 1 | 00:00–00:05 | Two-shot dari samping meja. Masing-masing dengan laptopnya sendiri, ditaruh agak ke samping supaya wajah tidak tertutup. Pembuka: si pitcher sedang menjelaskan sesuatu dengan bersemangat, tangannya ikut bergerak. Suaranya tidak terdengar, tertutup musik pembuka. Calon klien condong ke depan, buku catatannya terbuka, pulpen di tangan, mengangguk berminat. Teks di layar: **POV: lagi pitching ke calon klien.** Musik mengecil. Si pitcher menunjuk sekilas ke layar laptopnya sendiri. **"Lengkapnya bisa dilihat di website kami, Pak."** Calon klien beralih ke laptopnya. | Musik pembuka yang lembut, menutupi penjelasan si pitcher. Musik mengecil dan hilang tepat sebelum dialog pertama. |
+| 2 | 00:05–00:08 | Dari balik bahu si pitcher. Calon klien meletakkan pulpen di atas buku catatan yang masih terbuka, mengetik sebentar di laptopnya sendiri, lalu mulai scroll. | Bunyi ketikan singkat, lalu scroll yang ringan. |
+| 3 | 00:08–00:13 | Insert layar: dia scroll pelan. Hero dengan gradasi ungu-biru, headline dengan emoji, tiga kartu berikon, foto tim yang terlalu mulus (lihat isi website di bawah). | Bunyi scroll. |
+| 4 | 00:13–00:17 | Close-up calon klien. Dia masih menatap layar, mata sedikit menyipit. Lalu mengangkat pandangan ke si pitcher. **"Ini buatnya pakai AI, ya?"** Nadanya datar, sekadar bertanya. | Dialog. |
+| 5 | 00:17–00:20 | Close-up si pitcher. Senyum percaya dirinya berhenti di tengah jalan dan berubah jadi senyum canggung. Dia berkedip, melirik laptop sebentar, lalu kembali ke calon klien. **"Kok tahu?"** | Hening sesaat, lalu dialog. |
+| 6 | 00:20–00:24 | Dari balik bahu si pitcher. Calon klien mengangkat tangannya dari laptop dan sedikit mundur. Wajahnya tenang. **"Kelihatan aja."** Diucapkan pelan, nyaris tanpa senyum, tanpa gerakan lain. | Dialog. Selebihnya hening. |
+| 7 | 00:24–00:30 | Two-shot seperti shot 1. Calon klien bersandar, menurunkan layar laptopnya setengah, lalu melirik jam tangannya. Si pitcher masih tersenyum canggung, satu tangan memegang tengkuk, matanya ke website-nya sendiri yang masih terbuka di laptopnya. Adegan terus berjalan di balik teks penutup. | Suasana ruang meeting. Tanpa musik. |
 
 ## Dialog
 
 | Waktu | Siapa | Kalimat |
 |-------|-------|---------|
-| 00:14.5 | Rekan | Ini buatnya pakai AI, ya? |
-| 00:18.5 | Si pembuat (off-screen) | Kok tahu? |
-| 00:21.5 | Rekan | Kelihatan banget. |
+| 00:03.5 | Si pitcher | Lengkapnya bisa dilihat di website kami, Pak. |
+| 00:14.5 | Calon klien | Ini buatnya pakai AI, ya? |
+| 00:18.5 | Si pitcher | Kok tahu? |
+| 00:21.5 | Calon klien | Kelihatan aja. |
 
-## Isi website (shot 1, 3, dan 7)
+## Perubahan sikap
+
+Ini yang membawa pesannya, jadi perlu terlihat jelas tanpa dijelaskan:
+
+| Siapa | Sebelum melihat website | Sesudah melihat website |
+|-------|-------------------------|-------------------------|
+| Calon klien | Condong ke depan, buku catatan terbuka, pulpen siap menulis | Bersandar, layar laptop diturunkan setengah, pulpen tergeletak, mata ke jam tangan |
+| Si pitcher | Tegak, senyum percaya diri, tangan terbuka | Senyum canggung, tangan di tengkuk, mata ke laptop |
+
+## Isi website (shot 3)
 
 Yang terlihat di layar, sesuai urutan scroll:
 

@@ -39,4 +39,6 @@ The final product can be:
 ## Tools and output
 
 - Image generation: use Nano Banana via Antigravity (`agy`) or GPT Image via Codex (`codex`).
+- `agy` cannot ask for permissions in non-interactive mode, so running it with `--dangerously-skip-permissions` is allowed for image generation in this project. Run it from inside the target `outputs/{project_name}/` folder and keep the prompt limited to generating and saving images.
+- If image generation with those tools is taking too long, you may use the MiniMax API instead. The key is in the project `.env` as `MINIMAX_API_KEY`. Never read, print, or log the key itself: load it into the environment from a script (for example `set -a; . ./.env; set +a`) and pass it by variable name only.
 - Save all outputs to `outputs/{project_name}/`.
