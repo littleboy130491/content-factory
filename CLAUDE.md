@@ -43,6 +43,10 @@ The final product can be:
 - If image generation with those tools is taking too long, you may use the MiniMax API instead. The key is in the project `.env` as `MINIMAX_API_KEY`. Never read, print, or log the key itself: load it into the environment from a script (for example `set -a; . ./.env; set +a`) and pass it by variable name only.
 - Save all outputs to `outputs/{project_name}/`.
 
+## AI-generated films (`video/`)
+
+Fully AI-generated short films (images → video → edit) live in `video/`, separate from the concept videos in `outputs/`. For that work, read `video/AGENTS.md` (or `video/CLAUDE.md`) first. It points to the global knowledge in `video/knowledge/` and the experiment diary in `video/diary/`. Do not open `video/projects/` unless the author asks for a specific project.
+
 ## What we are making
 
 Short concept videos for Imajiner, the author's web agency. Each video is a small, realistic office scene about a website that lets a business down. Projects so far:
