@@ -1,6 +1,6 @@
 # Knowledge — pengetahuan global produksi video AI
 
-Berlaku untuk **semua** proyek video. Isinya hasil sulingan dari eksperimen nyata; setiap klaim di sini pernah diuji. Kalau sebuah temuan baru hanya berlaku untuk satu proyek, tulis di `projects/<nama>/`, bukan di sini.
+Berlaku untuk **semua** proyek video. Isinya hasil sulingan dari eksperimen nyata; setiap klaim di sini pernah diuji. Kalau sebuah temuan baru hanya berlaku untuk satu proyek, tulis di `project/<nama>/`, bukan di sini.
 
 | File | Kapan dibaca |
 |---|---|
@@ -15,6 +15,6 @@ Berlaku untuk **semua** proyek video. Isinya hasil sulingan dari eksperimen nyat
 | [09-pasca-produksi.md](09-pasca-produksi.md) | Saat trim, rough cut, upscale, grain, export |
 
 ## Cara menambah pengetahuan
-1. Tulis temuan dulu di log proyek (`projects/<nama>/log-keputusan.md`).
+1. Tulis temuan dulu di log proyek (`project/<nama>/log-keputusan.md`).
 2. Kalau sudah terbukti berlaku umum (atau terulang di proyek kedua), pindahkan versi ringkasnya ke file knowledge yang sesuai, dengan tanggal dan bukti singkat.
 3. Hapus atau koreksi pengetahuan yang sudah usang. Model dan harga berubah cepat; tulis bulan/tahun di setiap angka.

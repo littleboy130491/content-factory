@@ -3,7 +3,7 @@
 Basis pengetahuan, template, dan skrip untuk membuat film pendek dengan AI (gambar → video → edit). AI agent: baca [`AGENTS.md`](AGENTS.md) (atau [`CLAUDE.md`](CLAUDE.md) untuk Claude) lebih dulu.
 
 ```
-video/
+resources/video/
 ├── AGENTS.md            aturan untuk semua AI agent
 ├── CLAUDE.md            AGENTS.md + catatan khusus Claude
 ├── knowledge/           pengetahuan GLOBAL (berlaku untuk semua proyek)
@@ -19,14 +19,12 @@ video/
 ├── diary/               catatan eksperimen & refleksi per proyek
 ├── templates/           bible, README proyek, entri diary, prompt
 ├── scripts/             h3_build, kling_batch, roughcut, contact_sheet, crop_to_vertical
-├── workflows/           workflow ComfyUI (MiniMax H3 ref2v turbo)
-└── projects/            pengetahuan KHUSUS proyek (dibuka hanya jika diminta)
-    └── invisible-mistakes/
+└── workflows/           workflow ComfyUI (MiniMax H3 ref2v turbo)
 ```
 
 ## Mulai proyek baru
 1. Baca `diary/README.md`, bagian "Pelajaran terpenting".
-2. `mkdir projects/<nama>`, lalu salin `templates/project-readme.md` dan `templates/bible.md`.
+2. `mkdir project/<nama>`, lalu salin `templates/project-readme.md` dan `templates/bible.md`.
 3. Ikuti fase di `knowledge/02-pipeline.md`.
 4. Di akhir, tulis entri diary dan pindahkan pelajaran umum ke `knowledge/`.
 

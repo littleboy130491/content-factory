@@ -1,7 +1,7 @@
 # 09 — Pasca-produksi
 
 ## Rough cut
-`scripts/roughcut.py edit.json --dir <folder klip>`. Edit list per proyek disimpan di `projects/<nama>/`.
+`scripts/roughcut.py edit.json --dir <folder klip>`. Edit list per proyek disimpan di `project/<nama>/`.
 - Normalisasi semua klip ke ukuran target (default 1080×1920) dan 24 fps.
 - **Grain seragam** (`noise=alls=6:allf=t`) membuat klip dari model berbeda terasa satu film.
 - **Rasa anime "on twos":** `anime_twos: true`, yaitu `fps=12` lalu `fps=24`.

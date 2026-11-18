@@ -1,6 +1,6 @@
 # {Judul proyek}
 
-> Salin ke `projects/<nama>/README.md`.
+> Salin ke `project/<nama>/README.md`.
 
 - **Klien:**
 - **Tanggal mulai:**
@@ -13,7 +13,7 @@
 |---|---|
 | `bible.md` atau link dokumen | Bible |
 | `log-keputusan.md` | Keputusan & revisi user, berurutan |
-| `prompts/` | Data adegan/shot (JSON) untuk skrip di `video/scripts/` |
+| `prompts/` | Data adegan/shot (JSON) untuk skrip di `resources/video/scripts/` |
 | `refs/` | Referensi yang diapprove (dikompres) |
 | `samples/` | Contact sheet hasil QA |
 

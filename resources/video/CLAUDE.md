@@ -10,7 +10,7 @@ Semua aturan di AGENTS.md berlaku. Bagian di bawahnya khusus untuk Claude.
 1. File ini dan `AGENTS.md` (sudah termuat).
 2. `diary/README.md`, bagian "Pelajaran terpenting".
 3. File `knowledge/` yang relevan dengan langkah yang sedang dikerjakan. Tidak perlu semuanya; pilih dari tabel di `knowledge/README.md`.
-4. **`projects/` tidak dibuka**, kecuali user menyebut proyeknya atau meminta memakainya sebagai referensi (AGENTS.md §2).
+4. **`project/` tidak dibuka**, kecuali user menyebut proyeknya atau meminta memakainya sebagai referensi (AGENTS.md §2).
 
 ### Comfy Cloud MCP
 - Detail tool, quirk, dan node template ada di `knowledge/08-comfy-cloud.md`.
@@ -25,7 +25,7 @@ Semua aturan di AGENTS.md berlaku. Bagian di bawahnya khusus untuk Claude.
 - Pakai daftar tugas (TaskCreate/TaskUpdate) untuk pekerjaan multi-langkah. Langkah terakhirnya selalu QA hasil.
 - Lihat setiap gambar dan contact sheet dengan Read sebelum mengirim atau memakainya.
 - Kirim hasil (video, contact sheet, keyframe) ke user dengan SendUserFile, dengan caption satu baris.
-- Bible proyek dibuat sebagai dokumen kolaboratif (Claude Docs) supaya user bisa berkomentar. Simpan link-nya di `projects/<nama>/README.md`.
+- Bible proyek dibuat sebagai dokumen kolaboratif (Claude Docs) supaya user bisa berkomentar. Simpan link-nya di `project/<nama>/README.md`.
 - Encode draf dengan `-preset veryfast`.
 
 ### Gaya kerja dengan user ini
@@ -34,6 +34,6 @@ Semua aturan di AGENTS.md berlaku. Bagian di bawahnya khusus untuk Claude.
 - Akui kesalahan sendiri dengan jelas (mis. prompt yang memicu halusinasi), lalu langsung beri perbaikan.
 
 ### Di akhir sesi
-- Perbarui `projects/<nama>/README.md` (status) dan `log-keputusan.md`.
+- Perbarui `project/<nama>/README.md` (status) dan `log-keputusan.md`.
 - Tulis atau perbarui entri `diary/`.
 - Pindahkan pelajaran umum ke `knowledge/`.

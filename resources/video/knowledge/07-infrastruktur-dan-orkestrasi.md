@@ -21,7 +21,7 @@
 
 ## Kerangka orkestrator (rencana)
 ```
-projects/<nama>/shotlist.json
+project/<nama>/shotlist.json
   → refs     : generate + approve referensi
   → keyframes: per shot, provider gambar
   → videos   : per shot (Kling) atau per adegan (H3)

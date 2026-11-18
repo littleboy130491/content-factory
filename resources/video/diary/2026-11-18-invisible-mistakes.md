@@ -70,7 +70,7 @@ Hal lain:
 
 ## Status yang ditinggalkan untuk agent berikutnya
 - 9 adegan H3 sudah selesai di Comfy Cloud (job A1–A9), tinggal diunduh dan direview.
-- Shot pagi/sore jalur Kling anime: prompt v2 siap di `projects/invisible-mistakes/prompts/anime_keyframe_kling_test.json`; tunggu kredit diisi.
+- Shot pagi/sore jalur Kling anime: prompt v2 siap di `project/invisible-mistakes/prompts/anime_keyframe_kling_test.json`; tunggu kredit diisi.
 - Keputusan jalur anime final (H3 vs Kling vs hibrida) belum diambil user.
 
 ## Dipindah ke knowledge

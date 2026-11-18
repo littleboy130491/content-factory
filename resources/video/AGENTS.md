@@ -1,6 +1,6 @@
 # AGENTS.md — Video (produksi film pendek AI)
 
-Instruksi untuk AI agent mana pun (Claude, Codex, Gemini, dll.) yang bekerja di folder `video/`. Baca sampai habis sebelum memulai. Aturan bahasa dan selera penulis di `CLAUDE.md` root repo tetap berlaku.
+Instruksi untuk AI agent mana pun (Claude, Codex, Gemini, dll.) yang bekerja di folder `resources/video/`. Baca sampai habis sebelum memulai. Aturan bahasa dan selera penulis di `CLAUDE.md` root repo tetap berlaku.
 
 ## 1. Apa folder ini
 Basis pengetahuan dan alat untuk membuat **film pendek dengan AI** (gambar → video → edit) bagi imajiner.id dan kliennya. Isinya dipisah menjadi:
@@ -12,17 +12,20 @@ Basis pengetahuan dan alat untuk membuat **film pendek dengan AI** (gambar → v
 | `templates/` | Template bible, README proyek, entri diary, dan prompt (gaya, keyframe, video, multi-shot, negative) | Saat memulai proyek atau menulis prompt |
 | `scripts/` | Skrip generik: `h3_build.py`, `kling_batch.py`, `roughcut.py`, `contact_sheet.py`, `crop_to_vertical.py` | Saat membangun batch, QA, atau rough cut |
 | `workflows/` | Workflow ComfyUI (format save) | Saat butuh graph aslinya |
-| `projects/` | **Pengetahuan khusus proyek:** cerita, karakter, log keputusan, data prompt, referensi | **Hanya kalau user memintanya** (lihat §2) |
+| `project/` | **Pengetahuan khusus proyek:** cerita, karakter, log keputusan, data prompt, referensi | **Hanya kalau user memintanya** (lihat §2) |
 
-## 2. Aturan folder `projects/` — penting
-- **Jangan membuka, me-list, atau mencari di `projects/`** kecuali:
+## 2. Aturan folder `project/` — penting
+- **Jangan membuka, me-list, atau mencari di `project/`** kecuali:
   1. user menyuruh memakai proyek tertentu sebagai referensi ("pakai Invisible Mistakes sebagai acuan"), atau
   2. user meminta melanjutkan proyek itu sendiri.
 - Alasannya: isi proyek (karakter, cerita, prompt adegan) akan mencemari proyek baru dan memenuhi konteks. Pelajaran yang berlaku umum **sudah disuling** ke `knowledge/` dan `diary/`.
 - Kalau diizinkan, baca hanya proyek yang disebut, mulai dari `README.md`-nya.
-- Proyek baru dibuat di `projects/<nama-kebab-case>/` dari `templates/project-readme.md`.
+- Proyek baru dibuat di `project/<nama-kebab-case>/` dari `templates/project-readme.md`.
 
 ## 3. Alur kerja proyek baru (ringkas)
+
+Terapkan [standar penyutradaraan video](../../AGENTS.md#standar-penyutradaraan-video) pada storyboard, animatic, dan rough cut. Saat memilih variasi hasil generate, utamakan take yang memperjelas aksi dan emosi pada titik cerita itu. Jika semua variasi terasa generik, revisi rancangan shot sebelum generate ulang.
+
 Detail di `knowledge/02-pipeline.md`. **Bertahap, dari murah ke mahal, dengan gerbang persetujuan user:**
 1. **Brief → bible v0.** Minta referensi visual sebagai gambar, bukan link video.
 2. **Sketsa storyboard** murah dan resolusi rendah, sampai cerita dan komposisi dikunci.
@@ -67,14 +70,14 @@ Detail dan quirk di `knowledge/03-model-dan-provider.md`.
 - Kalau user bertanya "apa baiknya…?", beri satu rekomendasi dengan trade-off-nya.
 
 ## 8. Merawat pengetahuan
-- Keputusan dan revisi user ditulis di `projects/<nama>/log-keputusan.md`.
+- Keputusan dan revisi user ditulis di `project/<nama>/log-keputusan.md`.
 - Di akhir sesi atau proyek, tulis entri `diary/` (template: `templates/diary-entry.md`): yang dilakukan, gagal, berhasil, trade-off, refleksi.
 - Temuan yang berlaku umum dipindahkan ke `knowledge/` dengan tanggal. Angka yang usang dikoreksi, jangan dibiarkan.
 - Jangan menyalin isi proyek mentah ke `knowledge/`. Sulingan saja.
 
 ## 9. Struktur file proyek
 ```
-projects/<nama>/
+project/<nama>/
   README.md              status, isi folder, cara mengulang
   cerita-dan-karakter.md tokoh, lokasi, alur adegan
   log-keputusan.md       keputusan & revisi user, berurutan

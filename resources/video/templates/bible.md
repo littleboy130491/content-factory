@@ -1,6 +1,6 @@
 # {Judul} — Production Bible
 
-> Salin file ini ke `projects/<nama>/bible.md` (atau buat sebagai dokumen kolaboratif), lalu isi. Revisi dari user langsung ditulis di sini.
+> Salin file ini ke `project/<nama>/bible.md` (atau buat sebagai dokumen kolaboratif), lalu isi. Revisi dari user langsung ditulis di sini.
 
 ## Ringkasan
 - **Klien / tujuan:**
