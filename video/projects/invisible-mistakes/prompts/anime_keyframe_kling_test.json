@@ -1,0 +1,24 @@
+{
+  "note": "Tes jalur anime tanpa reference-to-video (18 Nov 2026). Keyframe Seedream 5.0 Flash (output 1024x1024, di-crop 576x1024 lalu resize 1080x1920), lalu Kling 3.0 i2v 5 dtk tanpa audio.",
+  "keyframe_style": "Vertical 9:16 frame, a single still from an authentic 1990s Japanese TV anime: hand-painted cel animation, clean hand-inked lines, flat cel shading with one shadow tone, hand-painted gouache background, muted nostalgic palette, soft film grain. Not 3D, not glossy modern anime.",
+  "video_prefix": "1990s TV anime cel animation, keep the exact hand-painted cel look and line art of the image.",
+  "shots": [
+    {
+      "name": "pagi", "refs": ["bakery", "rafi"], "crop_x": 20,
+      "keyframe": "Early morning: low warm sunlight streams through the glass storefront in long beams with dust in the air. Medium shot: the young baker stands at the wire rack sliding a tray of fresh golden bread rolls onto it, eyes on the tray, calm focused face. Empty shop, quiet.",
+      "video_v1": {"seed": 401, "prompt": "Locked-off camera. The young baker slides the tray of bread rolls onto the wire rack, lets go, and wipes his hand once on his apron, eyes on the bread.", "result": "GAGAL: halusinasi, tangan masuk ke balik apron dan muncul kantong/kain."},
+      "video_v2": {"seed": 411, "prompt": "Locked-off camera. The young baker slowly pushes the tray of bread rolls fully onto the wire rack shelf, then stays still and looks at the bread. His hands stay on the tray. Only dust drifts in the warm sunbeams. Simple, calm, minimal motion.", "negative_extra": "new objects appearing, objects disappearing, hands entering clothes, pockets, cloth appearing", "result": "belum dijalankan (kredit Comfy habis)"}
+    },
+    {
+      "name": "sore", "refs": ["late", "c3"], "crop_x": 220,
+      "keyframe": "Late afternoon: low amber sun slanting across the floor, long shadows, dust floating. Wide shot from behind the older customer: he stands alone at the empty cashier counter holding a small paper bag of bread, waiting; nobody behind the counter, the kitchen door closed. Still, a little lonely.",
+      "video_v1": {"seed": 402, "prompt": "Locked-off camera. The older man, seen from behind, stands waiting at the empty counter; he slowly turns his head to look toward the closed kitchen door, then back, shifting his weight once.", "result": "GAGAL: menoleh sampai profil wajah terlihat."},
+      "video_v2": {"seed": 412, "prompt": "Locked-off camera. The older man stands still with his back to the camera at the empty counter, waiting. He does not turn around and does not walk; only his shoulders rise and fall slowly with a breath. Very still, minimal motion.", "negative_extra": "turning head, showing face, profile, walking", "result": "belum dijalankan (kredit Comfy habis)"}
+    },
+    {
+      "name": "malam", "refs": ["night", "adinda", "rafi"], "crop_x": 340,
+      "keyframe": "Night, shop closed: one bare tungsten bulb over the counter is the only warm light, the rest of the room in deep blue-violet shadow, cold street light through the glass door, shelves nearly empty. Foreground: the owner sits on a plastic stool at the counter, chin on her hand, looking at an old laptop whose cool glow lights her face, worried but calm. Background, softer: the baker wipes the counter with a cloth, eyes down, half turned away.",
+      "video_v1": {"seed": 403, "prompt": "Locked-off camera. The young woman in the black hijab rests her chin on her hand, looking at the laptop; she blinks slowly and lets out a small quiet sigh, her shoulders sinking slightly. Behind her the young baker slowly wipes the counter in small circles, eyes down. The bare bulb glows steadily.", "result": "BERHASIL: bersih, wajah konsisten."}
+    }
+  ]
+}

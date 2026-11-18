@@ -1,0 +1,146 @@
+{
+  "suffix": "Natural real-time motion, documentary realism, 35mm film grain.",
+  "negative": "talking, lip movement, face morphing, identity change, warping, melting objects, extra fingers, slow motion, fast motion, camera shake, flicker, text, watermark, cartoon, CGI, plastic skin, looking at camera, wide grin",
+  "shots": [
+    {
+      "name": "vid02",
+      "image": "70ea71a00ed108b4923a8c6c35643e743593edd9c5b72d917fa438148221c4fc.png",
+      "duration": 4,
+      "prompt": "Very slow push-in into the busy bakery. The two customers seen from behind pick bread with tongs and move slightly along the shelf; the baker at the back counter bags something. A faint wisp of steam over the trays, sunlight steady on the floor. Customers never turn their faces to camera.",
+      "seed": 300
+    },
+    {
+      "name": "vid03",
+      "image": "43da14b1ed5e4f15a5c1797b1f0cb2e7bba3516d4711fa03db064c05b4c5ee19.png",
+      "duration": 3,
+      "prompt": "Gentle handheld close-up. The hands twist the plastic bag closed around the bun with two quick natural turns, then set it down on the table. Plastic crinkles, flour dust drifts in the sunlight.",
+      "seed": 301
+    },
+    {
+      "name": "vid04",
+      "image": "90372fe3be8dae536936a83a4c2b0c4ccab7da06a712106f56e98eadb48ea400.png",
+      "duration": 3,
+      "prompt": "Slow smooth pan to the right across the neat bread shelves. The bread and price cards stay exactly as they are, nothing moves except the camera and soft dust in the sunlight.",
+      "seed": 302
+    },
+    {
+      "name": "vid05",
+      "image": "612a4d5b5ef78fea5305e1d0f3ecf2f9a5ed534cfe5bc2e4bf60d0c48c0ed7c8.png",
+      "duration": 3,
+      "prompt": "Locked-off camera. The mother and her small son, seen from behind, walk slowly forward into the shop hand in hand a few steps, the boy leaning toward the bread shelves. Their faces stay hidden.",
+      "seed": 303
+    },
+    {
+      "name": "vid06",
+      "image": "81bd3192f1b72a1bbf9197b59f9f7ac00d2ab653841d6a57c964b5f352daee30.png",
+      "duration": 4,
+      "prompt": "Slight handheld feel at child height. The little boy points excitedly at the panda buns and bounces once on his toes; the mother's hand lifts one panda bun off the tray. The boy's face stays turned away from camera.",
+      "seed": 304
+    },
+    {
+      "name": "vid07",
+      "image": "56de26d9153a0e7722659d8d9769ebf5a13b04cd747aa65a78bfe6756a1959b6.png",
+      "duration": 3,
+      "prompt": "Locked-off camera. The young baker slides the paper bag across the counter toward the mother, with only a faint closed-lip smile and a tiny polite nod, eyes lowered, calm and shy. The mother's hand reaches for the bag. He does not grin and does not show teeth. Mouth stays closed. His face stays exactly the same person.",
+      "seed": 305
+    },
+    {
+      "name": "vid08",
+      "image": "f9fdc0e22097817e22b785f7832cc832b85309119c0a76384865e2f83da2c31c.png",
+      "duration": 4,
+      "prompt": "Locked-off time-lapse of the empty bakery from morning to midday. The warm sunbeams slide slowly off the shelves and across the floor and shrink toward the door; the fluorescent tubes on the ceiling switch on; the room turns flatter and slightly greenish. The bread on the shelves slowly thins out. No people.",
+      "seed": 306
+    },
+    {
+      "name": "vid09",
+      "image": "fd22fbb9f7f219a0d1cafa533434bc4a8af162893ae9eb2b748fb07137fed7a9.png",
+      "duration": 3,
+      "prompt": "Subtle handheld over the shoulder. The young woman, seen from behind, turns her head slightly left and right scanning the shelf, then pauses on the empty tray. Her face stays hidden. The shelves and cards stay unchanged.",
+      "seed": 307
+    },
+    {
+      "name": "vid10",
+      "image": "d6b6166af2c7cf96d3150ef8574e72d446e34ca5cf4dc0c11cfef6fb2073450b.png",
+      "duration": 3,
+      "prompt": "Locked-off close-up. The hand in the grey hoodie sleeve hovers over the empty tray, hesitates, then slowly pulls back out of frame. The tray and the price card stay unchanged.",
+      "seed": 308
+    },
+    {
+      "name": "vid11",
+      "image": "d234a771b3e2542572619683c896b4ad26e4403cf2f21407ad641f1c0d5449d8.png",
+      "duration": 3,
+      "prompt": "Locked-off wide shot. The young woman walks out through the glass door into the bright street and the door swings slowly closed behind her. Her face stays hidden.",
+      "seed": 309
+    },
+    {
+      "name": "vid12",
+      "image": "72ab11342127d171c2cb55adc6afe2071f7a7ca4da862bba48aff790d5f4e396.png",
+      "duration": 4,
+      "prompt": "Slow rack focus: the image starts softer, then focus settles slowly onto the tray of chocolate buns on the far chrome rack by the window. Very slight drift forward. No people, nothing else moves.",
+      "seed": 310
+    },
+    {
+      "name": "vid13",
+      "image": "837df7f0855605846ac719dad5209ecf553ec9e9725dbdff6c1aba020864dcd5.png",
+      "duration": 3,
+      "prompt": "Locked-off. The man in the light-blue shirt, seen from behind, leans in a little toward the cake display and points at a slice through the glass. His face stays hidden. The fridge hums softly.",
+      "seed": 311
+    },
+    {
+      "name": "vid14",
+      "image": "7f246ecfa3a77421786c73107ab1c3f11c346f1532c8b636944516a84bcbe900.png",
+      "duration": 4,
+      "prompt": "Close-up through the fridge glass with a slow rack focus onto the slumped, smeared cake slice. The hand in the blue cuff in the foreground slowly lets go of the glass door and drops away out of frame. The cake does not move.",
+      "seed": 312
+    },
+    {
+      "name": "vid15",
+      "image": "2d5f39d4cc75eb489e1b247490d45a98661609614f3e55450fb4ff332391f718.png",
+      "duration": 3,
+      "prompt": "Very slow push-in from above. The older man's hands finish setting the three bagged buns on the counter and rest there, waiting. Nobody behind the counter. Orange sun stripes steady.",
+      "seed": 313
+    },
+    {
+      "name": "vid16",
+      "image": "f0fa4ea0294d9c268ec73a4d9c89ae647131f55f2c391deaea810e22d4559f6a.png",
+      "duration": 3,
+      "prompt": "Locked-off, almost still. A single drop of condensation slides down the iced tea glass; the apron on the hook sways very slightly; dust drifts in the orange light. No people.",
+      "seed": 314
+    },
+    {
+      "name": "vid17",
+      "image": "6db0faf5d9ea5f5833caed4eed7edd3cfb28836d5b98d9622d54eba13643cea5.png",
+      "duration": 3,
+      "prompt": "Locked-off. The older man seen from behind slowly turns his head from left to right, looking around the empty shop for someone, then faces the counter again. We only see the back and side of his head, never his face.",
+      "seed": 315
+    },
+    {
+      "name": "vid18",
+      "image": "96043f74cda921e82abbbd6a86bade5f6074333b511306a7592e27fad41c1900.png",
+      "duration": 3,
+      "prompt": "Slow push-in over the man's shoulder toward the closed kitchen door with the round window. A faint shadow passes behind the porthole glass but the door stays shut. Nobody comes out.",
+      "seed": 316
+    },
+    {
+      "name": "vid19",
+      "image": "6111fe5eba100f27cde88afb641c175d6670c7034f27af58e29b299da785d5c4.png",
+      "duration": 3,
+      "prompt": "Locked-off close-up. He turns his wrist to glance at the steel watch, and the fingertips of his other hand tap the counter twice, then stop.",
+      "seed": 317
+    },
+    {
+      "name": "vid20",
+      "image": "25c17873e19099611dabae4b1833ad8945e3b59564246b448ad5a6068e5fd73e.png",
+      "duration": 3,
+      "prompt": "Locked-off wide. The older man walks out through the glass door into the orange late sun, the door swinging behind him. The bagged buns stay left on the counter in the foreground. His face stays hidden.",
+      "seed": 318
+    },
+    {
+      "name": "vid21",
+      "image": "061a1ea1ee4376b883aa39d6b130ada140fe0287596bb7beba5876ec445f5ffd.png",
+      "duration": 4,
+      "prompt": "Locked-off, long still hold on the abandoned buns on the counter. In the soft background the glass door sways slightly to a stop; the orange light dims very slowly. No people.",
+      "seed": 319
+    }
+  ]
+}

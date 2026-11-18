@@ -1,0 +1,115 @@
+{
+  "clips": [
+    {
+      "shot": "01",
+      "file": "vid01.mp4",
+      "seconds": 4
+    },
+    {
+      "shot": "02",
+      "file": "vid02.mp4",
+      "seconds": 4
+    },
+    {
+      "shot": "03",
+      "file": "vid03.mp4",
+      "seconds": 3
+    },
+    {
+      "shot": "04",
+      "file": "vid04.mp4",
+      "seconds": 3
+    },
+    {
+      "shot": "05",
+      "file": "vid05.mp4",
+      "seconds": 3
+    },
+    {
+      "shot": "06",
+      "file": "vid06.mp4",
+      "seconds": 4
+    },
+    {
+      "shot": "07",
+      "file": "vid07.mp4",
+      "seconds": 3
+    },
+    {
+      "shot": "08",
+      "file": "vid08.mp4",
+      "seconds": 3
+    },
+    {
+      "shot": "09",
+      "file": "vid09.mp4",
+      "seconds": 3
+    },
+    {
+      "shot": "10",
+      "file": "vid10.mp4",
+      "seconds": 3
+    },
+    {
+      "shot": "11",
+      "file": "vid11.mp4",
+      "seconds": 3
+    },
+    {
+      "shot": "12",
+      "file": "vid12.mp4",
+      "seconds": 4
+    },
+    {
+      "shot": "13",
+      "file": "vid13.mp4",
+      "seconds": 3
+    },
+    {
+      "shot": "14",
+      "file": "vid14.mp4",
+      "seconds": 4
+    },
+    {
+      "shot": "15",
+      "file": "vid15.mp4",
+      "seconds": 3
+    },
+    {
+      "shot": "16",
+      "file": "vid16.mp4",
+      "seconds": 3
+    },
+    {
+      "shot": "17",
+      "file": "vid17.mp4",
+      "seconds": 3
+    },
+    {
+      "shot": "18",
+      "file": "vid18.mp4",
+      "seconds": 3
+    },
+    {
+      "shot": "19",
+      "file": "vid19.mp4",
+      "seconds": 3
+    },
+    {
+      "shot": "20",
+      "file": "vid20.mp4",
+      "seconds": 3
+    },
+    {
+      "shot": "21",
+      "file": "vid21.mp4",
+      "seconds": 4
+    },
+    {
+      "shot": "22",
+      "file": "vid22.mp4",
+      "seconds": 5
+    }
+  ],
+  "output": "invisible_mistakes_roughcut_v1.mp4"
+}

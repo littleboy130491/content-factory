@@ -1,0 +1,4 @@
+*.mp4
+*.part
+__pycache__/
+norm/

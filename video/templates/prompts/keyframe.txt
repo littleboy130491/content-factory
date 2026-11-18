@@ -1,0 +1,1 @@
+{FORMAT_DAN_GAYA}. Image 1 is {LOKASI} (keep its layout exactly: {DETAIL_TATA_LETAK}). Image 2 is {TOKOH} (keep {his/her} face, {RAMBUT}, {KULIT}, {PAKAIAN}). {WAKTU}: {CAHAYA_DAN_UDARA}. {UKURAN_SHOT}: {SUBJEK} {AKSI_DIAM}, {EKSPRESI}. {SUASANA}.
