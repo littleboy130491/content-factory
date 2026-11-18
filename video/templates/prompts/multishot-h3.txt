@@ -1,0 +1,9 @@
+{STYLE} <Picture 1> is {REF1}; <Picture 2> is {REF2}. Keep every character and the room exactly as in their references across all shots.
+
+{WAKTU DAN CAHAYA}. Hard cuts between shots.
+Shot 1 | 0-{t1}s: {UKURAN SHOT + KAMERA + AKSI}
+Shot 2 | {t1}-{t2}s: Hard cut. {…}
+Shot 3 | {t2}-{T}s: Hard cut. {…}
+Audio: {AMBIENCE + FOLEY}
+
+No music. No dialogue; mouths stay closed.

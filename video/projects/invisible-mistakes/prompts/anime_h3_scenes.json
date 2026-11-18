@@ -1,0 +1,148 @@
+{
+  "style": "Authentic 1990s Japanese TV anime: hand-painted cel animation on film, clean hand-inked lines, flat cel shading with a single shadow tone, hand-painted gouache backgrounds, muted nostalgic palette, soft film grain, slight gate weave and VHS softness, animated on twos at about 12 fps. Not 3D, not glossy modern anime, no digital bloom. Vertical frame.",
+  "refs": {
+    "bakery": {
+      "image": "046a80647793815099290d87900bc957a4e5d8758189870843378e758ad82119.png",
+      "desc": "the bakery interior (same layout: teal shelves and chrome wire racks on the left, wooden table in the middle, wooden cashier counter with an old cash register and desk fan, glass cake display, white kitchen door with a round window, wall clock, glass storefront on the right)",
+      "file": "refs/anime/bakery.jpg"
+    },
+    "midday": {
+      "image": "496c26e18b31b682c89f024029d597e494a539154d0c939e84b10d79e0b57dd7.png",
+      "desc": "the bakery interior at midday (same layout)",
+      "file": "refs/anime/midday.jpg"
+    },
+    "late": {
+      "image": "9b2e535c503cb01a149a9b814c481be289ab419a48899b585fda8d317e6fca13.png",
+      "desc": "the bakery interior in late afternoon (same layout)",
+      "file": "refs/anime/late.jpg"
+    },
+    "night": {
+      "image": "4f3adfff09adea67227e2cfc3867a401b745d24d3645eba684d6295d4a6d8566.png",
+      "desc": "the bakery interior at night (same layout)",
+      "file": "refs/anime/night.jpg"
+    },
+    "rafi": {
+      "image": "438cc7e1a8ffbd1c1857d1f62841ded87aa5aeb8e7d3ac631034f2a9660f2988.png",
+      "desc": "the young baker (same face, short messy black hair, warm brown skin, navy t-shirt, cream apron, black watch)",
+      "file": "refs/anime/rafi.jpg"
+    },
+    "adinda": {
+      "image": "c5a6d89ecd4669bbd836193208144a0e85267c5a1e8cf1d8abcb70f0bcf9e21a.png",
+      "desc": "the young bakery owner (same face, black hijab, dusty-rose blouse)",
+      "file": "refs/anime/adinda.jpg"
+    },
+    "mother": {
+      "image": "86be6e237caba0abf0d14fe6cff10038518fdd85e6e7e9a2093028106e681e63.png",
+      "desc": "the mother and her small son (mother in sage-green hijab and cream tunic with a brown tote; boy in a mustard t-shirt with a small backpack), always seen from behind",
+      "file": "refs/anime/mother.jpg"
+    },
+    "c1": {
+      "image": "f7bbb6b6bd652e844418d79b06c4c4c99cca4f48839bca1f02e25543553be00a.png",
+      "desc": "the young woman customer (black ponytail, grey oversized hoodie, light jeans), always seen from behind",
+      "file": "refs/anime/c1.jpg"
+    },
+    "c2": {
+      "image": "dcbe805c2575272d4ffc7b52cbf369d77827265a2d1ca1a398c862a6d1161dea.png",
+      "desc": "the office-worker customer (light-blue shirt, blue ID lanyard, black backpack), always seen from behind",
+      "file": "refs/anime/c2.jpg"
+    },
+    "c3": {
+      "image": "f817fabf87af4cf01553e480e1bfafc0cad81fefb340b83c6504a480b8c2c7f2.png",
+      "desc": "the older customer (greying hair, brown batik short-sleeve shirt, steel watch), always seen from behind",
+      "file": "refs/anime/c3.jpg"
+    }
+  },
+  "scenes": [
+    {
+      "name": "A1_pagi_buka",
+      "seed": 301,
+      "duration": 12,
+      "refs": [
+        "bakery",
+        "rafi"
+      ],
+      "body": "Early morning, warm golden sun through the storefront, dust in the light beams. Hard cuts between shots.\nShot 1 | 0-3.5s: Extreme close-up on the wooden table by the window. The baker's hand in a grey quilted oven mitt sets down a tray of freshly baked golden round buns and slides out of frame. Steam curls up through a sunbeam. Very slow push-in.\nShot 2 | 3.5-6.5s: Hard cut. Wide shot from slightly high near the entrance: the busy shop full of bread, two customers seen only from behind (a woman in a floral batik blouse with a tray and tongs, a man in a dark polo shirt) pick bread at the teal shelves; the baker small at the back behind the counter, a small smile.\nShot 3 | 6.5-8.5s: Hard cut. Quick close-up of the baker's hands twisting a clear plastic bag closed around a golden bun, flour dust on his fingers.\nShot 4 | 8.5-12s: Hard cut. Straight-on close-up of the teal shelves, slow pan right across neat rows: panda-face buns, cheese buns, round cocoa chocolate buns, each row with one small handwritten price card.\nAudio: continuous morning bakery ambience, birds outside, tray clink, tongs and plastic rustle, plastic crinkle.\n\nNo music. No dialogue; mouths stay closed."
+    },
+    {
+      "name": "A2_keluarga",
+      "seed": 302,
+      "duration": 10,
+      "refs": [
+        "bakery",
+        "rafi",
+        "mother"
+      ],
+      "body": "Morning, warm sunlight. Hard cuts between shots.\nShot 1 | 0-3s: Locked-off wide shot from behind: the mother and her small son walk in hand in hand through the glass door and look at the full shelves; their soft shadows stretch forward on the floor.\nShot 2 | 3-6.5s: Hard cut. Close shot at the child's height from behind his shoulder: the boy points excitedly at a row of panda-face buns with chocolate ears and bounces on his toes; the mother's hand lifts one panda bun off the tray.\nShot 3 | 6.5-10s: Hard cut. Over the mother's shoulder (back of her sage hijab soft in the foreground): behind the counter the young baker hands over a brown paper bag with a faint closed-lip shy smile and a tiny nod, eyes lowered.\nAudio: door bell, small footsteps, the boy giggles softly once, paper bag rustle, a soft cash-register ding.\n\nNo music. No dialogue; mouths stay closed."
+    },
+    {
+      "name": "A3_timelapse_siang",
+      "seed": 303,
+      "duration": 5,
+      "refs": [
+        "bakery",
+        "midday"
+      ],
+      "body": "Single locked-off wide shot of the empty shop, time-lapse from morning to midday: the warm sunbeams slide off the shelves across the floor and shrink toward the door, the fluorescent tubes flick on, the room turns flat and slightly green-white, bread on the shelves thins out. No people.\nAudio: a soft clock ticking that speeds up, street sounds swelling, a fan starting.\n\nNo music. No dialogue; mouths stay closed."
+    },
+    {
+      "name": "A4_roti_coklat",
+      "seed": 304,
+      "duration": 10,
+      "refs": [
+        "midday",
+        "c1"
+      ],
+      "body": "Midday, flat fluorescent light, warm stale air. Hard cuts between shots.\nShot 1 | 0-3.5s: Over the young woman's shoulder from behind: she scans the teal shelf; at her eye level an empty aluminium tray with only crumbs and a small handwritten card \"Coklat 10rb\", next to a tray of cheese buns. No chocolate bread nearby.\nShot 2 | 3.5-6s: Hard cut. Close-up on the empty tray: her hand in a grey hoodie sleeve reaches in, hesitates in mid-air, slowly pulls back.\nShot 3 | 6-10s: Hard cut. Wide shot from inside: she walks out through the glass door empty-handed into the bright street, the door swinging closed; the empty shelf soft in the foreground.\nAudio: fan hum, fluorescent buzz, a small disappointed sigh, door bell.\n\nNo music. No dialogue; mouths stay closed."
+    },
+    {
+      "name": "A5_salah_taruh",
+      "seed": 305,
+      "duration": 6,
+      "refs": [
+        "midday"
+      ],
+      "body": "Single shot, midday, the shop empty. Slow rack focus: the soft foreground is the edge of the teal shelf with the empty tray and crumbs; focus slowly pulls across the room to the chrome wire rack by the front window, where a tray of round cocoa-dusted chocolate buns sits on a low shelf among white bread loaves, under a small card \"Tawar 18rb\". They were there all along, in the wrong place. Very slight drift forward. No people.\nAudio: quiet room tone, fan hum, a single soft piano note at the end.\n\nNo music. No dialogue; mouths stay closed."
+    },
+    {
+      "name": "A6_cake",
+      "seed": 306,
+      "duration": 8,
+      "refs": [
+        "midday",
+        "c2"
+      ],
+      "body": "Midday. Hard cut between shots.\nShot 1 | 0-3s: Locked-off from behind: the office worker in a light-blue shirt leans toward the glass cake display and points at a slice of layered cake.\nShot 2 | 3-8s: Hard cut. Close-up through the fingerprinted, slightly fogged glass: focus finds one slumped cake slice, its cream smeared across the inside of its plastic box; his hand in the blue cuff slowly lets go of the glass door and drops away; in the soft background he walks off.\nAudio: cake fridge hum, a fridge door seal, footsteps leaving, door bell.\n\nNo music. No dialogue; mouths stay closed."
+    },
+    {
+      "name": "A7_menunggu",
+      "seed": 307,
+      "duration": 12,
+      "refs": [
+        "late",
+        "c3"
+      ],
+      "body": "Late afternoon, long low orange sun stripes through the storefront mixing with greenish fluorescent light, dust in the beams. Hard cuts between shots.\nShot 1 | 0-3s: High angle close-up: the older man's weathered hands set three bagged buns on the wooden counter next to the old cash register. Nobody behind the counter.\nShot 2 | 3-5s: Hard cut. Quick still insert: the empty till; a cream apron hanging on a hook by the kitchen door; a half-drunk glass of iced tea sweating on the counter.\nShot 3 | 5-8.5s: Hard cut. From behind: the older man slowly turns his head left, then right, looking for someone; only the back and side of his head.\nShot 4 | 8.5-12s: Hard cut. Over his shoulder, slow push-in toward the closed white kitchen door with its round window; a faint shadow passes behind the glass but nobody comes out.\nAudio: chiller hum, wall clock ticking, a distant pan clatter from the kitchen.\n\nNo music. No dialogue; mouths stay closed."
+    },
+    {
+      "name": "A8_pergi",
+      "seed": 308,
+      "duration": 12,
+      "refs": [
+        "late",
+        "c3"
+      ],
+      "body": "Late afternoon, orange light slowly fading. Hard cuts between shots.\nShot 1 | 0-2s: Quick close-up: he turns his wrist to check his steel watch; his other fingertips tap the counter twice.\nShot 2 | 2-6s: Hard cut. Locked-off wide from beside the counter: the bagged buns soft in the foreground; the older man walks out through the glass door into the orange sun, the door swinging behind him.\nShot 3 | 6-12s: Hard cut. Long still close-up on the three abandoned buns on the counter; in the soft background the glass door sways to a stop and the orange light dims.\nAudio: two finger taps, footsteps, door bell, then near silence with the clock ticking.\n\nNo music. No dialogue; mouths stay closed."
+    },
+    {
+      "name": "A9_malam",
+      "seed": 309,
+      "duration": 8,
+      "refs": [
+        "night",
+        "adinda",
+        "rafi"
+      ],
+      "body": "Single static shot, night, the shop closed. The only warm light is one bare tungsten bulb over the counter; the rest of the room in deep blue-violet shadow, cold street light through the glass door, shelves nearly empty.\nThe young owner sits on a plastic stool at the counter in the foreground, chin resting on her hand, quietly looking at an old laptop whose cool glow lights her face; she blinks slowly, worried but calm. Behind her, softer, the young baker slowly wipes the counter in small circles with a cloth, eyes down, half turned away. Long, still, quiet.\nAudio: quiet night room tone, faint cake-fridge hum, soft cloth wiping, distant traffic.\n\nNo music. No dialogue; mouths stay closed."
+    }
+  ]
+}

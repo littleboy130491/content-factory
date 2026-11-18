@@ -1,0 +1,14 @@
+# Dasar (selalu)
+new objects appearing, objects disappearing, hands entering clothes, face morphing, identity change, warping, extra fingers, talking, lip movement, looking at camera, camera shake, flicker, text, watermark
+
+# + anime
+3D render, CGI, glossy modern anime, photorealistic
+
+# + realistis
+cartoon, CGI, plastic skin, slow motion, fast motion
+
+# + tokoh yang harus membelakangi kamera
+turning head, showing face, profile, walking
+
+# + tokoh dengan senyum tipis
+wide grin, teeth
